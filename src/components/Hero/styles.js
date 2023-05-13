@@ -3,7 +3,8 @@ import styled from "styled-components";
 export const Container = styled.div`
 padding-top: 12px;
 display: flex;
-justify-content = space-between;`
+justify-content: space-between;
+`
 
 export const Row = styled.div` 
 >a{
@@ -20,6 +21,9 @@ export const Row = styled.div`
     }
     }
     a.volver{
-        color: var(--black);
+        color: var(--text1);
+    }
+    a:hover{
+        color:var(--blue2);
     }
 `
