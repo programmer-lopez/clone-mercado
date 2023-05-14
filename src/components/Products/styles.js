@@ -25,3 +25,6 @@ height: 530px;
     height: 75%;
 }
 `
+export const Description = styled.div`
+border-top : 1px solid var(--border);
+`
