@@ -1,4 +1,5 @@
 import React from "react";
+import { InfoVendedor } from "../InfoVendedor";
 import {
   Container,
   Panel,
@@ -20,7 +21,7 @@ export const Products = () => {
         </Column>
         <Column>
           {/* <ProductsVent/> */}
-          {/* <InfoVendedor/> */}
+          <InfoVendedor />
           <Garantia />
         </Column>
       </Panel>

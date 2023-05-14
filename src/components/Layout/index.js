@@ -12,7 +12,6 @@ export const Layout = () => {
       <Header />
       <Wrapper>
         <Hero />
-        <MenList />
         <Products />
       </Wrapper>
     </Container>
