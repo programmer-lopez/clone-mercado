@@ -16,7 +16,7 @@ padding: 32px 16px;
 margin: 0 16px;
 display: flex;
 flex-direction: column;
-border: 1px solid red;
+border: 1px solid var(--border);
 border-top-left-radius: 5px;
 border-top-right-radius: 5px;
 border-bottom: none;
@@ -107,17 +107,21 @@ export const Row = styled.div`
         flex-direction: column;
         text-align: center;
         >strong{
-            font-size: 24%;
+            font-size: 24px;
             font-weight: normal;
         }
     }
     `
-export const SupporIcon = styled.div`
-    
+export const SupporIcon = styled(HiOutlineChatAlt2)`
+    ${iconsCss}
     `
-export const ClockIcon = styled.div`
-    
+export const ClockIcon = styled(HiOutlineClock)`
+    ${iconsCss}
     `
-export const Link = styled.div`
-    
+export const Link = styled.a`
+    margin-top: 24px;
+    color: var(--blue3);
+    font-size: 14px;
+    text-decoration: none;
+    line-height: 18.9px;
     `
