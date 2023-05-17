@@ -48,7 +48,7 @@ export const ProductoVenta = () => {
             Color:<strong>Gris</strong>
             </Color>
             <Cantidad>
-                <p>Cantidad</p>
+                <p>Cantidad: </p>
                 <strong>¡Última disponible!</strong>
                 <input type="number" value=""/>
                 <span>(No disponible)</span>
@@ -60,7 +60,7 @@ export const ProductoVenta = () => {
             <Beneficios>
                 <li>
                     <ShildeIcon/>
-                    <p>Compra Protegida<span>Se abrirá en una nueva ventana, recibe el producto que esperabas o te devolvemos tu dinero.</span></p>
+                    <p>Compra Protegida, <span>Se abrirá en una nueva ventana, recibe el producto que esperabas o te devolvemos tu dinero.</span></p>
                 </li>
             </Beneficios>
         </Container>
