@@ -61,7 +61,7 @@ export const InfoVendedor = () => {
                     <span>Entrega sus productos a tiempo</span>
                 </div>
             </Row>
-            <Link href="#">Ver más datos de este vendedor</Link>
+            <Link href=".">Ver más datos de este vendedor</Link>
         </Container>
     )
 }

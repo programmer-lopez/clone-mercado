@@ -102,7 +102,7 @@ const Garantia = () => {
           <p className="title">Garantía del vendedor</p>
           <p className="description">Garantía del vendedor: 3 meses</p>
         </span>
-        <a href="#">Conocer más sobre garantía</a>
+        <a href=".">Conocer más sobre garantía</a>
       </div>
     </Section>
   )
