@@ -33,7 +33,7 @@ export const ProductoVenta = () => {
                 <div>
                     <span className="title">Envío gratis a todo el país</span>
                     <span className="detalle">Conoce los tiempos y las formas de envío.</span>
-                    <a href="#">Calcular cuándo llega</a>
+                    <a href=".">Calcular cuándo llega</a>
                 </div>
             </Card>
             <Card>
@@ -41,7 +41,7 @@ export const ProductoVenta = () => {
                 <div>
                     <span className="title">Devolución gratis</span>
                     <span className="detalle">Tienes 30 días desde que lo recibes.</span>
-                    <a href="#">Conocer más</a>
+                    <a href=".">Conocer más</a>
                 </div>
             </Card>
             <Color>
